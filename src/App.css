@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.Page {
+  background-color: #3d3c3c;
+}
+
+.Opening-Section {
+  text-align: center;
+}
+
+.FirstName {
+  text-align: center;
+  position: relative;
+  margin-top: -500px;
+  margin-bottom: 850px;
+  margin-left: -400px;
+  color: white;
+  font-size: 80px;
+}
+
+.LastName {
+  text-align: center;
+  position: relative;
+  margin-top: -880px;
+  margin-bottom: 850px;
+  margin-left: 210px;
+  color: white;
+  font-size: 80px;
+}
+
+.Links-List {
+  background-color: #3d3c3c;
+  width: 100px;
+
+}
+
+.Main-Body {
+  background-color: #f0f0f0;
+}
+
+.Work-Experience {
+  background-color: #f0f0f0;
+  position: relative;
+  margin-top: -538px;
+}
+
+.Projects {
+  background-color: #e3e3e3;
+  padding-bottom: 10px;
+}
+
+.Body-Header {
+  padding-top: 50px;
+  font-size: 50px;
+  margin-bottom: -80px;
+}
+
+.Rectangle {
+  position: absolute;
+  height: 200px;
+  width: 800px;
+  background-color: #3d3c3c;
+  margin-top: -500px;
+  margin-left: 25%;
+  margin-right: auto;
+}
+
+
+.Start-Image {
+  width: 100%;
+  position: relative;
+  height: 755px;
+}
+
+/* .Down-Arrow {
+  width: 50px;
+  position: relative;
+  height: 50px;
+  margin-top: -600px;
+  margin-left: 25%;
+  margin-right: auto;
+} */
+
+.Footer {
+  background-color: #3d3c3c;
+  margin-bottom: -90px;
+}
+
+.Footer-Text-Left {
+  color: white;
+  vertical-align: center;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.Footer-Text-Right {
+  color: white;
+  text-align: right;
+  vertical-align: center;
+  padding-right: 50px;
+}
