@@ -60,7 +60,7 @@ export default class WorkExperience extends React.Component {
             <h3 className="vertical-timeline-element-title"> Software Development Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">JPMorgan Chase & Co. | Wilmington, DE</h4>
             <p>
-              Designed and developed a mobile application for Goodwill Deleware non profit organization to help incentivize donations and improve public outreach. App was created in Python using a cross-platform app development framework known as Kivy.
+              Designed and developed a mobile application for Goodwill Delaware non profit organization to help incentivize donations and improve public outreach. App was created in Python using a cross-platform app development framework known as Kivy.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
