@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
     return(
       <div className="Footer">
       <p className="Footer-Text-Left">
-        © Copyright Niketh Charpanjeri | Last Modified August 2020 <br/>         niketh2171@gmail.com | 646-873-0379
+        © Copyright Niketh Charpanjeri | Last Modified July 2021 <br/>         niketh2171@gmail.com | 646-873-0379
       </p>
       <p className="Footer-Text-Right">
       </p>
