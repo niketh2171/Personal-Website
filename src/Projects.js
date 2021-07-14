@@ -61,6 +61,17 @@ export default class Projects extends React.Component {
               Wanted to learn more about AWS and its uses. Earned the entry level certification with hopes to go further in the path. See certificate <a href={"https://niketh-charpanjeri-aws-cert-cp.s3.us-east-2.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf"} target="_blank">{"here."}</a>
             </p>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="October 2020"
+            iconStyle={{ background: 'Navy', color: '#fff' }}
+          >
+            <h3 className="vertical-timeline-element-title"> Software Development Volunteer </h3>
+            <h4 className="vertical-timeline-element-subtitle"> Pitt iServe Program </h4>
+            <p>
+              Collaborated with 2 other Pitt students on full stack development of an online portal for a local weekend school to manage class enrollment, scheduling, and payments. Designed with JavaScript and PHP with MariaDB and a RESTFUL architecture.
+            </p>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     );
