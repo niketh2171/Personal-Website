@@ -41,7 +41,7 @@ export default class Projects extends React.Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="September 2018 - Present"
+            date="September 2018 - April 2019"
             iconStyle={{ background: 'Navy', color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title"> Avionics Team Member </h3>
@@ -63,7 +63,7 @@ export default class Projects extends React.Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="October 2020"
+            date="October 2020 - June 2021"
             iconStyle={{ background: 'Navy', color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title"> Software Development Volunteer </h3>
