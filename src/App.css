@@ -102,3 +102,11 @@
   vertical-align: center;
   padding-right: 50px;
 }
+
+.fill-window {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
