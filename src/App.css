@@ -70,8 +70,11 @@
 
 .Start-Image {
   width: 100%;
-  position: relative;
+  position: absolute;
   height: 755px;
+  overflow: hidden;
+  height: 100%;
+  left: 0;
 }
 
 /* .Down-Arrow {
