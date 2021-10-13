@@ -24,3 +24,4 @@ export default class OpeningSection extends React.Component {
   }
 
 }
+
