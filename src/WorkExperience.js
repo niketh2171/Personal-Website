@@ -17,7 +17,7 @@ export default class WorkExperience extends React.Component {
   render(){
     return (
       <div className="Work-Experience">
-        <p className="Body-Header" align="center"> <font> WORK EXPERIENCE </font> <br/> <br/> <br> </p>
+        <p className="Body-Header" align="center"> <font> WORK EXPERIENCE </font> <br/> <br/> <br/> </p>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
