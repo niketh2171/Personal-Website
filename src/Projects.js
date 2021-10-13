@@ -15,7 +15,7 @@ export default class Projects extends React.Component {
   render(){
     return (
       <div className="Projects">
-        <p className="Body-Header" align="center"> <font> PROJECTS AND ACTIVITIES </font> <br/> <br/> </p>
+        <p className="Body-Header" align="center"> <font> PROJECTS AND ACTIVITIES </font> <br/> <br/> <br/> </p>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
