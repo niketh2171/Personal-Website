@@ -17,11 +17,10 @@ export default class OpeningSection extends React.Component {
   render(){
     return (
       <div className="Opening-Section">
-        <img className="Start-Image" src={startImage} alt=""/>
         <h1 className="FirstName"> NIKETH </h1> <h1 className="LastName">CHARPANJERI </h1>
+        <h1 className="Title"> Software Engineer </h1>
       </div>
     );
   }
 
 }
-

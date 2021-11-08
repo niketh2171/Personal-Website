@@ -18,13 +18,19 @@ export default class App extends React.Component {
   render(){
 
     return (
-      <div className = "Page">
-        <OpeningSection/>
-        <div className = "Main-Body">
+      <div id="parent">
+        <div id="open">
+          <OpeningSection/>
+        </div>
+        <div id="work">
           <WorkExperience/>
+        </div>
+        <div id="projects">
           <Projects/>
         </div>
-        <Footer/>
+        <div id="footer">
+          <Footer/>
+        </div>
       </div>
     );
   }

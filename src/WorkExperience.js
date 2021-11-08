@@ -64,6 +64,7 @@ export default class WorkExperience extends React.Component {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        <br/>
       </div>
     );
   }

@@ -1,39 +1,45 @@
 .App {
-  text-align: center;
 }
 
 .Page {
-  background-color: #3d3c3c;
+  background-color: white;
 }
 
 .Opening-Section {
   text-align: center;
+  background-image: url(./opeingImage.jpg);
+  position: relative;
+
+    /* Full height */
+  height: 100vh;
+  width: 100%;
+
+    /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .FirstName {
   text-align: center;
   position: relative;
-  margin-top: -500px;
-  margin-bottom: 850px;
-  margin-left: -400px;
-  color: #3d3c3c;
-  font-size: 80px;
+  color: white;
+  font-size: 180px;
+  padding-top: 10%;
 }
 
 .LastName {
   text-align: center;
   position: relative;
-  margin-top: -880px;
-  margin-bottom: 850px;
-  margin-left: 210px;
-  color: #3d3c3c;
-  font-size: 80px;
+  color: white;
+  font-size: 180px;
 }
 
-.Links-List {
-  background-color: #3d3c3c;
-  width: 100px;
-
+.Title {
+  text-align: center;
+  position: relative;
+  color: #3d3c3c;
+  font-size: 80px;
 }
 
 .Main-Body {
@@ -42,13 +48,10 @@
 
 .Work-Experience {
   background-color: #f0f0f0;
-  position: relative;
-  margin-top: -538px;
 }
 
 .Projects {
   background-color: #e3e3e3;
-  padding-bottom: 10px;
 }
 
 .Body-Header {
@@ -57,35 +60,8 @@
   margin-bottom: -80px;
 }
 
-.Rectangle {
-  position: absolute;
-  height: 200px;
-  width: 800px;
-  background-color: #3d3c3c;
-  margin-top: -500px;
-  margin-left: 25%;
-  margin-right: auto;
-}
-
-
-.Start-Image {
-  width: 100%;
-  position: relative;
-  height: 900px;
-}
-
-/* .Down-Arrow {
-  width: 50px;
-  position: relative;
-  height: 50px;
-  margin-top: -600px;
-  margin-left: 25%;
-  margin-right: auto;
-} */
-
 .Footer {
   background-color: #3d3c3c;
-  margin-bottom: -90px;
 }
 
 .Footer-Text-Left {
@@ -103,10 +79,13 @@
   padding-right: 50px;
 }
 
-.fill-window {
-    height: 100%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-}
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }

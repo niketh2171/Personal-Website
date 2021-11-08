@@ -73,6 +73,7 @@ export default class Projects extends React.Component {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        <br/>
       </div>
     );
   }
