@@ -11,6 +11,7 @@ import Footer from './Footer';
 export default class App extends React.Component {
   constructor(props){
     super(props);
+    this.WorkExperience = React.createRef();
     this.state={
 
     }
@@ -22,7 +23,7 @@ export default class App extends React.Component {
         <div id="open">
           <OpeningSection/>
         </div>
-        <div id="work">
+        <div id="work" ref={this.WorkExperience}>
           <WorkExperience/>
         </div>
         <div id="projects">

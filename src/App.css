@@ -56,6 +56,11 @@
   font-size: 4vw;
 }
 
+.Down-Arrow {
+  position: relative;
+  margin-top: 4.5vw;
+}
+
 .Main-Body {
   background-color: #f0f0f0;
 }
@@ -93,9 +98,7 @@
   padding-right: 50px;
 }
 
-.Down-Arrow {
-  padding-top: 11vw;
-}
+
 
 
 * {

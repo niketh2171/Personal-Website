@@ -6,6 +6,8 @@ import './App.css';
 import { SocialIcon } from 'react-social-icons';
 import {Rectangle, Ellipse, Line} from 'react-shapes';
 import ReactTooltip from 'react-tooltip'
+import WorkExperience from './WorkExperience';
+import {Link} from 'react-scroll';
 
 export default class OpeningSection extends React.Component {
   constructor(props){
@@ -16,14 +18,16 @@ export default class OpeningSection extends React.Component {
   }
   render(){
     return (
-      <div className="Opening-Section">
+      <div id="opening-section" className="Opening-Section">
         <div>
           <h1 className="FirstName"> NIKETH </h1> <h1 className="LastName">CHARPANJERI </h1>
           <div className="Rectangle" />
           <h1 className="Title"> Software Engineer </h1>
         </div>
         <div className="Down-Arrow" >
-            <img src={downArrow} width="80" height="70"/>
+            <Link to="work" smooth={true}> 
+              <img src={downArrow} width="80" height="70"/>
+            </Link>
         </div>
       </div>
     );
