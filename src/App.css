@@ -22,23 +22,37 @@
 
 .FirstName {
   text-align: center;
-  position: relative;
+  position: absolute;
   color: white;
-  font-size: 180px;
-  padding-top: 10%;
+  font-size: 100px;
+  margin-left: 25%;
+  margin-top: 16%;
 }
 
 .LastName {
   text-align: center;
-  position: relative;
+  position: absolute;
   color: white;
-  font-size: 180px;
+  margin-left: 37%;
+  margin-top: 22%;
+  font-size: 100px;
+}
+
+.Rectangle {
+  display: inline-block;
+  width: 1000px;
+  height: 250px;
+  background: black;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3d3c3c;
 }
 
 .Title {
   text-align: center;
   position: relative;
-  color: #3d3c3c;
+  color: white;
   font-size: 80px;
 }
 
@@ -77,6 +91,10 @@
   text-align: right;
   vertical-align: center;
   padding-right: 50px;
+}
+
+.Down-Arrow {
+  padding-top: 130px;
 }
 
 
