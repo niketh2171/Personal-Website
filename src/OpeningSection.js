@@ -22,8 +22,8 @@ export default class OpeningSection extends React.Component {
           <div className="Rectangle" />
           <h1 className="Title"> Software Engineer </h1>
         </div>
-        <div className="Down-Arrow">
-            <img src={downArrow} width="80" height="70" />
+        <div className="Down-Arrow" >
+            <img src={downArrow} width="80" height="70"/>
         </div>
       </div>
     );
