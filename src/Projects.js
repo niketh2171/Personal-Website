@@ -36,7 +36,7 @@ export default class Projects extends React.Component {
             <h3 className="vertical-timeline-element-title"> MiniSumo </h3>
             <h4 className="vertical-timeline-element-subtitle"> Pitt Robotics and Automation Society </h4>
             <p>
-              Autonomous sumo fighting robot. Hardware design. Software development working with IR sensors and motors among other robotic components. First place at Pitt IEEE regional competition.
+              Autonomous sumo fighting robot. Hardware design. Software development working with IR sensors and motors among other robotic components. First place at Pitt IEEE regional competition. <a href={"https://things-for-personal-website.s3.us-east-2.amazonaws.com/MiniSumoPic.JPG"} target="_blank">{"Final Product."} </a>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
