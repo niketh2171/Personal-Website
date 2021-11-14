@@ -36,7 +36,9 @@ export default class Projects extends React.Component {
             <h3 className="vertical-timeline-element-title"> MiniSumo </h3>
             <h4 className="vertical-timeline-element-subtitle"> Pitt Robotics and Automation Society </h4>
             <p>
-              Autonomous sumo fighting robot. Hardware design. Software development working with IR sensors and motors among other robotic components. First place at Pitt IEEE regional competition. <a href={"https://things-for-personal-website.s3.us-east-2.amazonaws.com/MiniSumoPic.JPG"} target="_blank">{"Final Product."} </a>
+              Autonomous sumo fighting robot. Hardware design. Software development working with IR sensors and motors among other robotic components.
+              First place at Pitt IEEE regional competition. Definitely one of my favorite projects.
+              <a href={"https://things-for-personal-website.s3.us-east-2.amazonaws.com/MiniSumoPic.JPG"} target="_blank">{" Final Product."} </a>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -69,7 +71,8 @@ export default class Projects extends React.Component {
             <h3 className="vertical-timeline-element-title"> Software Development Volunteer </h3>
             <h4 className="vertical-timeline-element-subtitle"> Pitt iServe Program </h4>
             <p>
-              Collaborated with 2 other Pitt students on full stack development of an online portal for a local weekend school to manage class enrollment, scheduling, and payments. Designed with JavaScript and PHP with MariaDB and a RESTFUL architecture.
+              Collaborated with 2 other Pitt students on full stack development of an online portal for a local weekend school to manage class enrollment,
+              scheduling, and payments for 100's of students. Designed with JavaScript and PHP with MariaDB and a RESTFUL architecture.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
