@@ -55,10 +55,16 @@
   color: white;
   font-size: 4vw;
 }
+.Welcome {
+  font-size: 1.5vw;
+  text-align: center;
+  position: relative;
+  color: white;
+}
 
 .Down-Arrow {
   position: relative;
-  margin-top: 4.5vw;
+  margin-top: 2.5vw;
 }
 
 .Main-Body {

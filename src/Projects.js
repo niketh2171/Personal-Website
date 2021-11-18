@@ -49,7 +49,7 @@ export default class Projects extends React.Component {
             <h3 className="vertical-timeline-element-title"> Avionics Team Member </h3>
             <h4 className="vertical-timeline-element-subtitle"> Pitt Rocketry Team </h4>
             <p>
-              Lead hardware designer. First year team at the University. Successfully built a high powered rocket to compete at the NASA student launch.
+              Lead hardware designer. First year team at the University. Successfully built and launched a high powered rocket to compete at the NASA student launch.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
