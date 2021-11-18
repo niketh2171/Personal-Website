@@ -32,7 +32,7 @@ export default class WorkExperience extends React.Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="May 2019 - August 2019"
+            date="June 2019 - August 2019"
             iconStyle={{ background: 'Maroon', color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title"> Cloud Development Intern</h3>
