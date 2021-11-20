@@ -27,7 +27,7 @@ export default class WorkExperience extends React.Component {
             <h3 className="vertical-timeline-element-title"> Teaching Assistant</h3>
             <h4 className="vertical-timeline-element-subtitle">Kaizen Learning Center | Malvern, PA</h4>
             <p>
-              Quality Management of Testing Material, Tutoring, Grading.
+              Quality Management of Testing Material, Tutoring, Grading for standardized testing prep center.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
