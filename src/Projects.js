@@ -4,6 +4,10 @@ import startImage from './opeingImage.jpg';
 import './App.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import {GrBitcoin} from "react-icons/gr";
+import { GiBattleTank } from "react-icons/gi";
+import { AiFillRocket, AiFillCloud } from "react-icons/ai";
+import { GiSchoolBag } from "react-icons/gi";
 
 export default class Projects extends React.Component {
   constructor(props){
@@ -21,6 +25,7 @@ export default class Projects extends React.Component {
             className="vertical-timeline-element--work"
             date="January 2018 - April 2018"
             iconStyle={{ background: 'Navy', color: '#fff' }}
+            icon={<GrBitcoin/>}
           >
             <h3 className="vertical-timeline-element-title"> Freshman Engineering Conference </h3>
             <h4 className="vertical-timeline-element-subtitle">The Importance of Cryptocurrency and Blockchain Technology</h4>
@@ -32,6 +37,7 @@ export default class Projects extends React.Component {
             className="vertical-timeline-element--work"
             date="January 2018 - April 2018"
             iconStyle={{ background: 'Navy', color: '#fff' }}
+            icon={<GiBattleTank/>}
           >
             <h3 className="vertical-timeline-element-title"> MiniSumo </h3>
             <h4 className="vertical-timeline-element-subtitle"> Pitt Robotics and Automation Society </h4>
@@ -45,6 +51,7 @@ export default class Projects extends React.Component {
             className="vertical-timeline-element--work"
             date="September 2018 - April 2019"
             iconStyle={{ background: 'Navy', color: '#fff' }}
+            icon={<AiFillRocket/>}
           >
             <h3 className="vertical-timeline-element-title"> Avionics Team Member </h3>
             <h4 className="vertical-timeline-element-subtitle"> Pitt Rocketry Team </h4>
@@ -56,6 +63,7 @@ export default class Projects extends React.Component {
             className="vertical-timeline-element--work"
             date="August 2019"
             iconStyle={{ background: 'Navy', color: '#fff' }}
+            icon={<AiFillCloud/>}
           >
             <h3 className="vertical-timeline-element-title"> Amazon Web Services </h3>
             <h4 className="vertical-timeline-element-subtitle"> AWS Certified Cloud Practitioner </h4>
@@ -67,6 +75,7 @@ export default class Projects extends React.Component {
             className="vertical-timeline-element--work"
             date="October 2020 - June 2021"
             iconStyle={{ background: 'Navy', color: '#fff' }}
+            icon={<GiSchoolBag/>}
           >
             <h3 className="vertical-timeline-element-title"> Software Development Volunteer </h3>
             <h4 className="vertical-timeline-element-subtitle"> Pitt iServe Program </h4>

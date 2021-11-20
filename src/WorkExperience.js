@@ -6,6 +6,10 @@ import { SocialIcon } from 'react-social-icons';
 import {Rectangle, Ellipse, Line} from 'react-shapes';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { BsFillBriefcaseFill, BsPencilFill } from "react-icons/bs";
+import { AiFillCloud } from "react-icons/ai";
+import { FaDonate } from "react-icons/fa";
+import { MdPayment } from "react-icons/md";
 
 export default class WorkExperience extends React.Component {
   constructor(props){
@@ -23,6 +27,7 @@ export default class WorkExperience extends React.Component {
             className="vertical-timeline-element--work"
             date="June 2018 - August 2018"
             iconStyle={{ background: 'Maroon', color: '#fff' }}
+            icon={<BsPencilFill />}
           >
             <h3 className="vertical-timeline-element-title"> Teaching Assistant</h3>
             <h4 className="vertical-timeline-element-subtitle">Kaizen Learning Center | Malvern, PA</h4>
@@ -34,6 +39,7 @@ export default class WorkExperience extends React.Component {
             className="vertical-timeline-element--work"
             date="June 2019 - August 2019"
             iconStyle={{ background: 'Maroon', color: '#fff' }}
+            icon={<AiFillCloud />}
           >
             <h3 className="vertical-timeline-element-title"> Cloud Development Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Vertex Inc | King of Prussia, PA</h4>
@@ -45,6 +51,7 @@ export default class WorkExperience extends React.Component {
             className="vertical-timeline-element--work"
             date="June 2020 - August 2020"
             iconStyle={{ background: 'Maroon', color: '#fff' }}
+            icon={<FaDonate />}
           >
             <h3 className="vertical-timeline-element-title"> Software Development Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">JPMorgan Chase & Co. | Wilmington, DE</h4>
@@ -57,6 +64,7 @@ export default class WorkExperience extends React.Component {
             className="vertical-timeline-element--work"
             date="July 2021 - Present"
             iconStyle={{ background: 'Maroon', color: '#fff' }}
+            icon={<MdPayment />}
           >
             <h3 className="vertical-timeline-element-title"> Software Development Analyst</h3>
             <h4 className="vertical-timeline-element-subtitle">JPMorgan Chase & Co. | Plano, TX</h4>
