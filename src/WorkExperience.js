@@ -56,8 +56,10 @@ export default class WorkExperience extends React.Component {
             <h3 className="vertical-timeline-element-title"> Software Development Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">JPMorgan Chase & Co. | Wilmington, DE</h4>
             <p>
-              Designed and developed a mobile application for Goodwill Delaware non profit organization to help incentivize donations and improve public outreach. App was created in Python using a cross-platform app development framework called Kivy.
-              Here's a <a href="https://youtu.be/F4S3Eiqv60E" target="_blank"> demo video </a> of the completed app. No audio because the presentation was done with a live voiceover by me and my teammates.
+              Designed and developed a python mobile application for Goodwill Delaware non profit organization to help
+              incentivize donations and improve public outreach.
+              Here's a <a href="https://youtu.be/F4S3Eiqv60E" target="_blank"> demo video </a> of the completed app.
+              No audio because the presentation was done with a live voiceover by me and my teammates.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -69,8 +71,8 @@ export default class WorkExperience extends React.Component {
             <h3 className="vertical-timeline-element-title"> Software Development Analyst</h3>
             <h4 className="vertical-timeline-element-subtitle">JPMorgan Chase & Co. | Plano, TX</h4>
             <p>
-              Currently working on a payments team in the Consumer and Community Banking branch of Chase. Microservice and API Development for
-              application that allows merchants to accept mobile payments from customers through the Chase mobile app. It's been a fun experience getting
+              Microservice and API Development for application that allows merchants to accept mobile payments from
+              customers through the Chase mobile app. It's been a fun experience getting
               to combine my two interests of tech and finance.
             </p>
           </VerticalTimelineElement>
